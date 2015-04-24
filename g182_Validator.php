@@ -1,4 +1,13 @@
 <?php
+
+/*
+Plugin Name: Validatieplugin van 182 Code
+Description: Plugin voor gegevenscontrole
+Author: Geert van Dijk
+Version: 1.0.0
+*/
+
+
 include_once(ABSPATH . 'wp-config.php');
 include_once(ABSPATH . 'wp-includes/wp-db.php');
 include_once(ABSPATH . 'wp-includes/pluggable.php');
