@@ -7,7 +7,7 @@ include_once(ABSPATH . 'wp-includes/pluggable.php');
 class g182_Validator {
 
   function g182_Validator() {
-    
+    return 12;    
   }
 
   function none($text) {
