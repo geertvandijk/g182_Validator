@@ -4,7 +4,7 @@
 Plugin Name: Validatieplugin
 Description: Plugin voor controle van gebruikersinvoer door 182code. Wordt gebruikt door andere plugins van 182code.
 Author: Geert van Dijk
-Version: 1.0.0
+Version: 1.0.1
 */
 
 
