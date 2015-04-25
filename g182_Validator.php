@@ -1,8 +1,8 @@
 <?php
 
 /*
-Plugin Name: Validatieplugin van 182 Code
-Description: Plugin voor gegevenscontrole
+Plugin Name: Validatieplugin
+Description: Plugin voor controle van gebruikersinvoer door 182code. Wordt gebruikt door andere plugins van 182code.
 Author: Geert van Dijk
 Version: 1.0.0
 */
@@ -15,7 +15,7 @@ include_once(ABSPATH . 'wp-includes/pluggable.php');
 
 class g182_Validator {
 
-  function g182_Validator() {
+  function __construct() {
      
   }
 
@@ -24,7 +24,9 @@ class g182_Validator {
   } 
 
   function password($text) {
-    return true;
+    // for now, all non-empty passwords are allowed
+    // minimum/maximum length should be added at least
+    return !empty($text);
   }
 
   function email($text) {
